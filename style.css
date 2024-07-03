@@ -1,0 +1,307 @@
+@import url(https://fonts.google.com/specimen/Epilogue);
+body{
+   background-color : hsl(0, 0%, 98%) ;
+   font-family: "Epilogue", sans-serif !important ;
+   margin: 0px;
+   padding: 0px;
+   height: 100vh;
+   position: relative;
+   transition: all 200ms;
+
+} 
+/* header main div css */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+/* mobile header css */
+#mob-menu{
+    display: none;
+     padding: 20px 40px;
+     box-sizing: border-box;
+}
+#mob-menu .icon{
+  text-align: right;
+}
+.link-sec
+{
+    margin-top: 40px;
+}
+.link-sec span{
+    margin: 0px 10px;
+}
+.link-sec a{
+    color:hsl(0, 0%, 41%);
+    transition: all 200ms;
+    text-decoration: none;
+    display: block;
+    margin: 15px 0px;
+}
+.link-sec a:hover{
+    color:hsl(0, 0%, 8%);
+}
+#mob-menu p{
+    width: 100%;
+}
+#mob-feature-drop{
+    display: none;
+}
+#mob-com-drop{
+    margin: 10px 0px 30px 0px;
+    display: none;
+}
+#mob-com-drop ul
+{
+    padding-left: 2rem;
+
+}
+#mob-feature-drop ul  {
+    padding-left: 1rem;
+}
+#mob-feature-drop ul li , #mob-com-drop ul li{
+    list-style-type: none;
+    margin: 10px 0px;
+}
+#mob-feature-drop ul li a , #mob-com-drop ul li a{
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+    font-size: 15px;
+    margin: 5px 0px;
+}
+#mob-feature-drop span{
+    margin: 0px 10px;
+}
+/* mobile header css end */
+#logo-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#mob-menu button{
+    display: block;
+    margin: 10px auto 10px auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    border: none;
+    color: hsl(0, 0%, 41%);
+    font-size: 14px;
+    padding: 10px 28px;
+    width: 100%;
+}
+#mob-menu button:nth-child(2n)
+{
+    border: 2px solid hsl(0, 0%, 41%);
+}
+/* header logo css */
+#logo-div img{
+    margin: 0px 40px 0px 10px;
+}
+#logo-div ul li{
+    display: inline-block;
+}
+#logo-div ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* header link font style and size css */
+#logo-div ul li a{
+    font-size: 15px;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+     transition: all 200ms;
+}
+#logo-div ul li a:hover{
+    color: hsl(0, 0%, 8%);
+}
+/* header button css */
+header button{
+    color: hsl(0, 0%, 41%);
+    border: none;
+    margin: 0px 10px;
+    background-color: hsl(0, 0%, 98%) !important;
+    padding: 8px 16px;
+}
+header button:hover{
+    color: black;
+}
+header button:nth-child(2n)
+{
+    border: 2px solid hsl(0, 0%, 41%);
+    border-radius: 10px;
+
+}
+/* menu icon display none */
+#menu-icon{
+    display: none;
+}
+/* hero sec css start */
+#hero {
+   max-width: 1140px;
+   margin: 40px auto 10px auto;
+}
+/* mobile view hero sec img css  */
+#mob-hero-sec-img{
+    display: none;
+}
+#hero .row
+{
+    --bs-gutter-x: 0rem;
+    display: flex;
+    align-items: center;
+   
+}
+#hero h1{
+    color: hsl(0, 0%, 8%);
+    font-weight: 700;
+    font-size: 70px;
+   margin: 60px 0 40px 0;
+   position: relative;
+}
+.hero-inner-div{
+    padding: 10px;
+}
+#hero p{
+    max-width: 400px;
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+}
+.learn-more{
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    border: none;
+    padding: 12px 24px ;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.hero-com-img-sec{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+    align-items: center;
+}
+.hero-com-img-sec div{
+    flex: 0 0 100px;
+    margin: 10px;
+}
+
+/* feature drop and comapny drop down css  */
+
+#feature-drop{
+   
+position: absolute;
+top:70px;
+left: 100px;
+display: none;
+}
+#company-drop{
+    position: absolute;
+top:70px;
+left: 300px;
+display: none;
+}
+.drop-down-sec{
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+border-radius: 10px;
+width: fit-content;
+}
+.drop-down-sec ul {
+    margin: 0px;
+    padding: 0px;
+}
+.drop-down-sec ul li{
+    list-style-type: none;
+    margin: 5px;
+  
+}
+.drop-down-sec ul li a{
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+    font-size: 14px;
+   
+
+}
+.drop-down-sec ul li a:hover{
+    color: hsl(0, 0%, 8%);
+}
+.drop-down-sec span{
+    margin: 0px 10px;
+}
+
+@media (max-width:768px)
+{
+    body{
+        overflow-x: hidden !important;
+        width: 100vw !important;
+    }
+    #desk-img-hero{
+        display: none;
+
+    }
+    #hero{
+        text-align: center;
+    }
+    #hero h1{
+        font-size: 40px;
+       
+    }
+    #hero p{
+        margin: 30px auto;
+    }
+    #mob-hero-sec-img{
+      display: block;
+    }
+    br{
+        display: none;
+    }
+    .hero-com-img-sec{
+        margin: 20px;
+       justify-content: center;
+    }
+    .hero-com-img-sec div{
+        flex: 0 0 70px;
+    }
+    .learn-more{
+        text-align: center;
+        margin: 30px auto;
+        display: block;
+    }
+    #menu-icon{
+        display: block;
+    }
+    header ul{
+        display: none;
+    }
+    header button{
+        display: none;
+    }
+    #mob-menu{
+        
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 300px;
+        background-color: white;
+        height: 100%;
+        margin-right: -400px;
+        transition: all 300ms;
+    }
+}
+
+@media(max-width:420px)
+{
+    #hero h1{
+        font-size: 34px;
+    }
+    #hero p{
+        font-size: 16px;
+    }
+}
